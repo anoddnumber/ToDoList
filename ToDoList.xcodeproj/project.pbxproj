@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E91F3B8B19A1D12B002F99F8 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E91F3B8A19A1D12B002F99F8 /* ToDoItem.m */; };
 		E998D2741983452200AFFE69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E998D2731983452200AFFE69 /* Foundation.framework */; };
 		E998D2761983452200AFFE69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E998D2751983452200AFFE69 /* CoreGraphics.framework */; };
 		E998D2781983452200AFFE69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E998D2771983452200AFFE69 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E91F3B8919A1D12B002F99F8 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		E91F3B8A19A1D12B002F99F8 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 		E998D2701983452200AFFE69 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E998D2731983452200AFFE69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E998D2751983452200AFFE69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 		E998D2791983452200AFFE69 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				E91F3B8919A1D12B002F99F8 /* ToDoItem.h */,
+				E91F3B8A19A1D12B002F99F8 /* ToDoItem.m */,
 				E998D2821983452200AFFE69 /* AppDelegate.h */,
 				E998D2831983452200AFFE69 /* AppDelegate.m */,
 				E998D2A21983495000AFFE69 /* Main.storyboard */,
@@ -253,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E998D2841983452200AFFE69 /* AppDelegate.m in Sources */,
+				E91F3B8B19A1D12B002F99F8 /* ToDoItem.m in Sources */,
 				E998D2801983452200AFFE69 /* main.m in Sources */,
 				E998D2A919836E1600AFFE69 /* ToDoListTableTableViewController.m in Sources */,
 				E998D2A619836C7F00AFFE69 /* AddToDoItemViewController.m in Sources */,
@@ -454,6 +460,7 @@
 				E998D29E1983452200AFFE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E998D29F1983452200AFFE69 /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +469,7 @@
 				E998D2A11983452200AFFE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
